@@ -17,9 +17,9 @@ await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['s
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)
 }} 
-handler.help = ['linkgroup']
-handler.tags = ['group']
-handler.command = /^enlace|link(gro?up)?$/i
+handler.help = ['لينك']
+handler.tags = ['جروب']
+handler.command = /^لينك?$/i
 handler.group = true
 handler.botAdmin = true
 export default handler
