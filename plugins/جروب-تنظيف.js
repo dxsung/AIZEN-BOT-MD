@@ -2,5 +2,5 @@ let handler = async (m, { conn }) => {
 m.reply(global.destraba)
 m.reply(global.destraba)
 }
-handler.command = /^(destraba|deztraba|clear)$/i
+handler.command = /^(تنظيف|التنظيف|كلير)$/i
 export default handler
