@@ -38,9 +38,9 @@ await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['s
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)
 }}
-handler.help = ['addprem <@user>']
-handler.tags = ['owner']
-handler.command = /^(advertir|advertencia|Advertencias|warn|warning)$/i
+handler.help = ['انذار <@منشن>']
+handler.tags = ['جروب']
+handler.command = /^(انذار|تحذير|تنذير)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
