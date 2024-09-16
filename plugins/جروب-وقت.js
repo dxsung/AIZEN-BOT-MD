@@ -83,7 +83,7 @@ lenguajeGB.smsGrupoTime12() + '12' + lenguajeGB.smsGrupoTime11(),
 lenguajeGB.smsGrupoTime13() + '12' + lenguajeGB.smsGrupoTime11() + '\n', 
 
 lenguajeGB.smsGrupoTime12() + '24' + lenguajeGB.smsGrupoTime11(),
-lenguajeGB.smsGrupoTime13() + '24' + lenguajeGB.smsGrupoTime11()]
+enguajeGB.smsGrupoTime13() + '24' + lenguajeGB.smsGrupoTime11()]
 
 let comando = [ 
 "open 1", "cerrar 1", 
@@ -138,7 +138,7 @@ await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['s
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)
 }}
-handler.command = /^(grouptime|gctime|grupotiempo)$/i
+handler.command = /^(وقت|الوقت|الساعة|الساعه|ساعه|ساعة)$/i
 handler.botAdmin = true
 handler.group = true 
 handler.admin = true
